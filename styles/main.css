@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Hammersmith+One);
+
 * {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -5,7 +7,7 @@
 
 body {
 	background: #000 url('../images/background.jpg');
-	font-family: font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-family: font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 	color: #333;
 }
 
@@ -19,6 +21,7 @@ body {
 header {
 	width:100%;
 	float: left;
+	padding-bottom: 25px;
 }
 
 header h1{
@@ -26,7 +29,7 @@ header h1{
 }
 
 header nav {
-	float: :right;
+	float: right;
 }
 header nav ul li {
 	display: inline;
@@ -42,15 +45,16 @@ aside{
 	width:35%;
 	float: right;
 }
+
 .left{ 
 float: left;
-margin-right: 10;
+margin-right: 10px;
 }
 
 .right{
 
 float:right; 
-margin-left: 10;
+margin-left: 10px;
 }
 
 footer {
